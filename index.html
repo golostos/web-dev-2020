@@ -5,40 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Regexp tester</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>Regexp tester</h1>
+        <h1 class="h1">Regexp tester</h1>
         <!-- p.description>lorem40 -->
         <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quisquam fugit adipisci amet illo reiciendis rerum consequuntur tempora voluptas sapiente cupiditate accusamus quibusdam, quo nihil fuga facere beatae fugiat. Atque ab eos expedita cupiditate sit, vero unde earum suscipit iure.</p>
     
-        <textarea id="regexp">a+b*</textarea>
+        <textarea id="regexp" class="input">a+b*</textarea>
         <!-- h3{Samples:}+.samples>.sample*5>input.sample-input+.answer.no-match{No match} -->
         <h3>Samples:</h3>
         <div class="samples">
             <div class="sample">
-                <input type="text" class="sample-input">
+                <input type="text" class="input sample-input">
                 <div class="answer no-match">No match</div>
             </div>
             <div class="sample">
-                <input type="text" class="sample-input">
+                <input type="text" class="input sample-input">
                 <div class="answer no-match">No match</div>
             </div>
             <div class="sample">
-                <input type="text" class="sample-input">
+                <input type="text" class="input sample-input">
                 <div class="answer no-match">No match</div>
             </div>
             <div class="sample">
-                <input type="text" class="sample-input">
+                <input type="text" class="input sample-input">
                 <div class="answer no-match">No match</div>
             </div>
             <div class="sample">
-                <input type="text" class="sample-input">
+                <input type="text" class="input sample-input">
                 <div class="answer no-match">No match</div>
             </div>
         </div>
     </div>
-    
+    <button id="button">Click me!</button>
+    <div class="menu"></div>
     <!-- <div class="flex-cont">
         <div class="flex-elem">1</div>
         <div class="flex-elem">2</div>
