@@ -1,0 +1,12 @@
+[
+    {
+        "description": "",
+        "regexp": "a+b*",
+        "samples": ["aaaa", "bbbb", "cccccc", "ddddd", "aab", "ddddddd"]
+    },
+    {
+        "description": "",
+        "regexp": "c+d*",
+        "samples": ["ccccccd", "ddddddd", "cddddd", "ddddd"]
+    }
+]
