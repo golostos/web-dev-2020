@@ -1,0 +1,44 @@
+[
+  {
+    "description": "",
+    "regexp": "a+b*",
+    "samples": [
+      "aaaa",
+      "bbbb",
+      "cccccc",
+      "ddddd",
+      "aab",
+      "ddddddd"
+    ]
+  },
+  {
+    "description": "",
+    "regexp": "c+d*",
+    "samples": [
+      "ccccccd",
+      "ddddddd",
+      "cddddd",
+      "ddddd"
+    ]
+  },
+  {
+    "description": "Lorem",
+    "regexp": "f+h*",
+    "samples": [
+      "ffffffffff",
+      "hhhhhh",
+      "father",
+      "mother"
+    ]
+  },
+  {
+    "description": "Lorem",
+    "regexp": "f+h*",
+    "samples": [
+      "ffffffffff",
+      "hhhhhh",
+      "father",
+      "mother"
+    ]
+  }
+]

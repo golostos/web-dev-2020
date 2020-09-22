@@ -1,6 +1,6 @@
 [
     {
-        "description": "",
+        "description": "", 
         "regexp": "a+b*",
         "samples": ["aaaa", "bbbb", "cccccc", "ddddd", "aab", "ddddddd"]
     },

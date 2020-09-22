@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "server": "nodemon --ignore client/ --ignore node_modules -- ./server/app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/golostos/web-dev-2020/issues"
   },
-  "homepage": "https://github.com/golostos/web-dev-2020#readme"
+  "homepage": "https://github.com/golostos/web-dev-2020#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
