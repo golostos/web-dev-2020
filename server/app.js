@@ -1,3 +1,5 @@
+require('module-alias/register')
+
 const express = require('express')
 const app = express()
 const port = 3000
@@ -7,7 +9,7 @@ const fs = require('fs')
 const { check, validationResult, checkSchema, body } = require('express-validator/check')
 const { sanitizeBody } = require('express-validator/filter')
 
-const Task = require('./models/Task')
+const Task = require('@models/Task')
 let taskReady = false
 Task.sync().then(() => {
     taskReady = true

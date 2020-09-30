@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
-    "server": "nodemon --ignore client/ --ignore node_modules -- ./server/app.js"
+    "server": "nodemon --inspect-brk --ignore client/ --ignore node_modules -- ./server/app.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,20 @@
     "nodemon": "^2.0.4"
   },
   "dependencies": {
+    "ajv": "^6.12.5",
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.2",
     "mysql2": "^2.2.5",
-    "sequelize": "^6.3.5"
+    "sequelize": "^6.3.5",
+    "validator": "^13.1.17"
+  },
+  "_moduleAliases": {
+    "@models": "./server/models",
+    "@controllers": "./server/controllers",
+    "@services": "./server/services",
+    "@config": "./server/config"
   }
 }
